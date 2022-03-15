@@ -1,0 +1,110 @@
+#pole {
+	background: url(molnija3.png);
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	border: 5px solid red;
+	overflow: hidden;
+}
+
+.ball {
+	background: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -100px; /* 0 => 400 - 50 = 350px */
+	left: -100px; /* 0 => 600 - 50 = 550px */
+	display: block;
+	transition: all 1s;
+}
+
+.left {
+	top: 500px;
+	left: -100px;
+}
+
+.right {
+	top: 500px;
+	left: 700px;
+}
+
+#stars {
+	font-size: 34px;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#lifes {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#lifes span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    float: left;
+}
+
+#start-block {
+	width: 100%;
+	height: 100%;
+	background: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: block;*/
+}
+
+#start-block button {
+	margin: 130px auto;
+	display: block;
+	padding: 40px 80px;
+	font-size: 30px;
+	border-radius: 20px;
+	background: red;
+	color: white;
+}
+
+#dopKnopka-block {
+	position: relative;
+}
+
+#goSharik {
+	padding: 15px;
+	margin: 10px 400px;
+	border-radius: 40px;
+	font-size: 20px;
+}
+
+#stop-igra {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4646b3;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
